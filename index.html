@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bauhaus</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://kit.fontawesome.com/08b13d1b0c.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</head>
+<body>
+    <div id="header">
+        <div id="brand">
+            <div class="brand--logo_name">
+                <div class="logo">
+                    <img src="./images/brand-white.png" alt="image brand">
+                </div>
+                <div class="brand--name">
+                    <p>bauhaus</p>
+                    <p>architecture</p>
+                </div>
+            </div>
+            <div class="brand--phone">
+                <p>CALL ME: <span>(+080) 9684 32 45 789</span></p>
+            </div>
+        </div>
+        <div id="navigation_bar">
+            <ul class="options">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#clients">CLIENTS</a></li>
+                <li><a href="#team">TEAM</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+            <ul class="socials">
+                <li><i class="fa-brands fa-twitter"></i></li>
+                <li><i class="fa-brands fa-facebook-f"></i></li>
+                <li><i class="fa-brands fa-google"></i></li>
+                <li><i class="fa-brands fa-linkedin"></i></li>
+                <li><i class="fa-brands fa-telegram"></i></li>
+            </ul>
+        </div>
+    </div>
+    <div id="home">
+        <div id="background">
+            
+        </div>
+        <div class="text_background">
+            <p class="background_title">Residential</p>
+            <h1 class="background_subtitle">Small <br> House Near <br> Wroclaw</h1>
+            <div>
+                <p>See project</p>
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+        </div>
+        <div class="dots_slide">
+            <div class="dot" tabindex="1" onclick="currentSlide(0)"></div>
+            <div class="dot" tabindex="1" onclick="currentSlide(1)"></div>
+            <div class="dot" tabindex="1" onclick="currentSlide(2)"></div>
+        </div>
+    </div>
+    <div id="about">
+        <div id="container">
+            <div class="about--left">
+                <h3>ABOUT ME</h3>
+                <h1 class="title">We Are The Leader In The Architectural</h1>
+                <p class="content">For each project we establish relationships with partners who we know will help us create added value for your project. As well as bringing together the public and private sectors, we make sector-overarching links to gather knowledge and to learn from each other</p>
+                <div class="experience">
+                    <p class="year">26</p>
+                    <p class="years_text">Years Experience Working</p>
+                </div>
+            </div>
+            <div class="about--right">
+                <div class="image_about">
+                    
+                </div>
+            </div>
+        </div>
+        <div id="second-container">
+            <ul class="infomations">
+                <li class="items">
+                    <h3 class="title">
+                        what we do
+                    </h3>
+                </li>
+                <li class="items">
+                    <i class="fa-solid fa-city"></i>
+                    <h3>Architecture</h3>
+                    <p>First stages in a project are very important to understand your client´s needs. With many different tools we approach.</p>
+                </li>
+                <li class="items">
+                    <i class="fa-solid fa-couch"></i>
+                    <h3>Interior Design</h3>
+                    <p>Once in the design process, we must go deeper in your project´s foundation, we need to arrive to the essence.</p>
+                </li>
+                <li class="items">
+                    <i class="fa-solid fa-ruler-combined"></i>
+                    <h3>Plants</h3>
+                    <p>Once in the design process, we must go deeper in your project´s foundation, we need to arrive to the essence, the roots in order.</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="projects">
+        <div class="projects_modal">
+            <div class="project_informations">
+                <img src="./images/projects/deitails/1-680x680.jpg" alt="">
+                <div class="details">
+                    <h1>Rectangular House Near Italy</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut. magna aliquam erat volutpat enim ad minim veniam. Duis autem vel eum iriure dolor in hendrerit in.
+                    </p>
+                    <table class="informations">
+                        <tr>
+                            <td>Clients:</td>
+                            <td>Ethan Hunt, John Doe</td>
+                        </tr>
+                        <tr>
+                            <td>Completion:</td>
+                            <td>February 5th, 2019</td>
+                        </tr>
+                        <tr>
+                            <td>Project Type:</td>
+                            <td>Villa, Residence</td>
+                        </tr>
+                        <tr>
+                            <td>Architects:</td>
+                            <td>Logan Cee, Paul</td>
+                        </tr>
+                        <tr>
+                            <td>Budget:</td>
+                            <td>$1 200 000</td>
+                        </tr>
+                    </table>
+                    <table class="detail_footer">
+                        <tr>
+                            <td>Share:</td>
+                            <td>
+                                <ul>
+                                    <li><i class="fa-brands fa-twitter"></i></li>
+                                    <li><i class="fa-brands fa-facebook-f"></i></li>
+                                    <li><i class="fa-brands fa-google"></i></li>
+                                    <li><i class="fa-brands fa-linkedin"></i></li>
+                                    <li><i class="fa-brands fa-telegram"></i></li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+        </div>
+        <div class="projects_options">
+            <div><h1>Latest Projects</h1></div>
+            <ul>
+                <li class="option">All</li>
+                <li class="option">Building</li>
+                <li class="option">Interior & Exterior</li>
+            </ul>
+        </div>
+        <div class="projects_slide">
+            <div class="projects_items">
+                <div onclick="renderProjectItems()" class="project_items">
+                    <img src="./images/projects/1-426x574.jpg" alt="">
+                    <div class="background_see">
+                        <div class="see_show">
+                            <h1>Triangle Concrete House On Lake</h1>
+                        </div>
+                        <h2 class="show_btn">See project<span><i class="fa-solid fa-chevron-right"></i></span></h2>
+                    </div>
+                    <div class="background_project">
+                        <div class="content">
+                            <h1>Triangle Concrete House On Lake</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur cupiditate repellat sequi sit magni explicabo atque ea expedita tempore reiciendis, consectetur sed placeat enim, minima itaque et, modi ut blanditiis.</p>
+                        </div>
+                        <h2 class="show_project">See project<span><i class="fa-solid fa-chevron-right"></i></span></h2>
+                    </div>
+                </div>
+            <div class="project_items">
+                <img src="./images/projects/2-426x574.jpg" alt="">
+                <div class="background_see">
+                    <div class="see_show">
+                        <h1>Rectangular House Near Italy</h1>
+                    </div>
+                    <h2 class="show_btn">See project<span><i class="fa-solid fa-chevron-right"></i></span></h2>
+                </div>
+                <div class="background_project">
+                    <div class="content">
+                        <h1>Rectangular House Near Italy</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur cupiditate repellat sequi sit magni explicabo atque ea expedita tempore reiciendis, consectetur sed placeat enim, minima itaque et, modi ut blanditiis.</p>
+                    </div>
+                    <h2 class="show_project">See project<span><i class="fa-solid fa-chevron-right"></i></span></h2>
+                </div>
+            </div>
+            <div class="project_items">
+                <img src="./images/projects/3-426x574.jpg" alt="">
+                <div class="background_see">
+                    <div class="see_show">
+                        <h1>Triangle Concrete House On Lake</h1>
+                    </div>
+                    <h2 class="show_btn">See project<span><i class="fa-solid fa-chevron-right"></i></span></h2>
+                </div>
+                <div class="background_project">
+                    <div class="content">
+                        <h1>Triangle Concrete House On Lake</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur cupiditate repellat sequi sit magni explicabo atque ea expedita tempore reiciendis, consectetur sed placeat enim, minima itaque et, modi ut blanditiis.</p>
+                    </div>
+                    <h2 class="show_project">See project<span><i class="fa-solid fa-chevron-right"></i></span></h2>
+                </div>
+            </div>
+            <div class="project_items">
+                <img src="./images/projects/4-426x574.jpg" alt="">
+                <div class="background_see">
+                    <div class="see_show">
+                        <h1>Triangle Concrete House On Lake</h1>
+                    </div>
+                    <h2 class="show_btn">See project<span><i class="fa-solid fa-chevron-right"></i></span></h2>
+                </div>
+                <div class="background_project">
+                    <div class="content">
+                        <h1>Triangle Concrete House On Lake</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur cupiditate repellat sequi sit magni explicabo atque ea expedita tempore reiciendis, consectetur sed placeat enim, minima itaque et, modi ut blanditiis.</p>
+                    </div>
+                    <h2 class="show_project">See project<span><i class="fa-solid fa-chevron-right"></i></span></h2>
+                </div>
+            </div>
+            <div class="project_items">
+                <img src="./images/projects/2-426x574.jpg" alt="">
+                <div class="background_see">
+                    <div class="see_show">
+                        <h1>Rectangular House Near Italy</h1>
+                    </div>
+                    <h2 class="show_btn">See project<span><i class="fa-solid fa-chevron-right"></i></span></h2>
+                </div>
+                <div class="background_project">
+                    <div class="content">
+                        <h1>Rectangular House Near Italy</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur cupiditate repellat sequi sit magni explicabo atque ea expedita tempore reiciendis, consectetur sed placeat enim, minima itaque et, modi ut blanditiis.</p>
+                    </div>
+                    <h2 class="show_project">See project<span><i class="fa-solid fa-chevron-right"></i></span></h2>
+                </div>
+            </div>
+            <div class="project_items">
+                <img src="./images/projects/2-426x574.jpg" alt="">
+                <div class="background_see">
+                    <div class="see_show">
+                        <h1>Rectangular House Near Italy</h1>
+                    </div>
+                    <h2 class="show_btn">See project<span><i class="fa-solid fa-chevron-right"></i></span></h2>
+                </div>
+                <div class="background_project">
+                    <div class="content">
+                        <h1>Rectangular House Near Italy</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur cupiditate repellat sequi sit magni explicabo atque ea expedita tempore reiciendis, consectetur sed placeat enim, minima itaque et, modi ut blanditiis.</p>
+                    </div>
+                    <h2 class="show_project">See project<span><i class="fa-solid fa-chevron-right"></i></span></h2>
+                </div>
+            </div>
+            <div class="project_items">
+                <img src="./images/projects/2-426x574.jpg" alt="">
+                <div class="background_see">
+                    <div class="see_show">
+                        <h1>Rectangular House Near Italy</h1>
+                    </div>
+                    <h2 class="show_btn">See project<span><i class="fa-solid fa-chevron-right"></i></span></h2>
+                </div>
+                <div class="background_project">
+                    <div class="content">
+                        <h1>Rectangular House Near Italy</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur cupiditate repellat sequi sit magni explicabo atque ea expedita tempore reiciendis, consectetur sed placeat enim, minima itaque et, modi ut blanditiis.</p>
+                    </div>
+                    <h2 class="show_project">See project<span><i class="fa-solid fa-chevron-right"></i></span></h2>
+                </div>
+            </div>
+            <div class="project_items">
+                <img src="./images/projects/2-426x574.jpg" alt="">
+                <div class="background_see">
+                    <div class="see_show">
+                        <h1>Rectangular House Near Italy</h1>
+                    </div>
+                    <h2 class="show_btn">See project<span><i class="fa-solid fa-chevron-right"></i></span></h2>
+                </div>
+                <div class="background_project">
+                    <div class="content">
+                        <h1>Rectangular House Near Italy</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur cupiditate repellat sequi sit magni explicabo atque ea expedita tempore reiciendis, consectetur sed placeat enim, minima itaque et, modi ut blanditiis.</p>
+                    </div>
+                    <h2 class="show_project">See project<span><i class="fa-solid fa-chevron-right"></i></span></h2>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="button_slide">
+            <i class="fa-solid fa-circle"></i>
+        </div>
+    </div>
+    <div id="clients">  
+        <div id="client_container">
+            <div class="clients_option">
+                <h1>From Great Our Clients</h1>
+                <div class="clients_btn">
+                    <i class="fa-solid fa-chevron-left"></i>
+                    <i class="fa-solid fa-chevron-right"></i>
+                </div>
+            </div>
+            <div class="clients_box">
+                <div class="abc">
+                    <div class="review_tag">
+                        <img src="./images/reviewer/1-92x92.jpg" alt="">
+                        <i class="fa-solid fa-quote-right"></i>
+                        <h3 class="reviewer_infor">
+                            <span>Adam Stone</span> <span>/ CEO at Google INC</span>
+                        </h3>
+                        <p class="review">
+                            Sed elit quam, iaculis sed semper sit amet udin vitae nibh. at magna akal semperFusce commodo molestie luctus.Lorem ipsum Dolor tusima olatiup.
+                        </p>
+                    </div>
+                    <div class="review_tag">
+                        <img src="./images/reviewer/1-92x92.jpg" alt="">
+                        <i class="fa-solid fa-quote-right"></i>
+                        <h3 class="reviewer_infor">
+                            <span>Adam Stone</span> <span>/ CEO at Google INC</span>
+                        </h3>
+                        <p class="review">
+                            Sed elit quam, iaculis sed semper sit amet udin vitae nibh. at magna akal semperFusce commodo molestie luctus.Lorem ipsum Dolor tusima olatiup.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="logo_box">
+                <ul class="clients_logo">
+                    <li><img src="./images/logo/1.png" alt=""></li>
+                    <li><img src="./images/logo/2.png" alt=""></li>
+                    <li><img src="./images/logo/3.png" alt=""></li>
+                    <li><img src="./images/logo/4.png" alt=""></li>
+                    <li><img src="./images/logo/5.png" alt=""></li>
+                </ul>
+                <i class="fa-solid fa-circle"></i>
+            </div>
+        </div>
+    </div>
+    <div id="team">
+        <div id="second-container2">
+            <div class="infomations2">
+                <div class="items">
+                    <h3 class="title">
+                        MEET OUR TEAM
+                    </h3>
+                </div>
+                <ul>
+                    <li class="items2">
+                        <img src="./images/team/1-270x270.jpg" alt="">
+                        <div class="infor">
+                            <div class="items_infor">
+                                <h3 class="name">Alex Ferguson</h3>
+                                <h3 class="position">SEO Founder</h3>
+                                <ul class="socials">
+                                    <li><i class="fa-brands fa-twitter"></i></li>
+                                    <li><i class="fa-brands fa-facebook-f"></i></li>
+                                    <li><i class="fa-brands fa-linkedin"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="items2">
+                        <img src="./images/team/2-270x270.jpg" alt="">
+                        <div class="infor">
+                            <div class="items_infor">
+                                <h3 class="name">Alex Ferguson</h3>
+                                <h3 class="position">SEO Founder</h3>
+                                <ul class="socials">
+                                    <li><i class="fa-brands fa-twitter"></i></li>
+                                    <li><i class="fa-brands fa-facebook-f"></i></li>
+                                    <li><i class="fa-brands fa-linkedin"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="items2">
+                        <img src="./images/team/3-270x270.jpg" alt="">
+                        <div class="infor">
+                            <div class="items_infor">
+                                <h3 class="name">Alex Ferguson</h3>
+                                <h3 class="position">SEO Founder</h3>
+                                <ul class="socials">
+                                    <li><i class="fa-brands fa-twitter"></i></li>
+                                    <li><i class="fa-brands fa-facebook-f"></i></li>
+                                    <li><i class="fa-brands fa-linkedin"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="items2">
+                        <img src="./images/team/4-270x270.jpg" alt="">
+                        <div class="infor">
+                            <div class="items_infor">
+                                <h3 class="name">Alex Ferguson</h3>
+                                <h3 class="position">SEO Founder</h3>
+                                <ul class="socials">
+                                    <li><i class="fa-brands fa-twitter"></i></li>
+                                    <li><i class="fa-brands fa-facebook-f"></i></li>
+                                    <li><i class="fa-brands fa-linkedin"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="items2">
+                        <img src="./images/team/5-270x270.jpg" alt="">
+                        <div class="infor">
+                            <div class="items_infor">
+                                <h3 class="name">Alex Ferguson</h3>
+                                <h3 class="position">SEO Founder</h3>
+                                <ul class="socials">
+                                    <li><i class="fa-brands fa-twitter"></i></li>
+                                    <li><i class="fa-brands fa-facebook-f"></i></li>
+                                    <li><i class="fa-brands fa-linkedin"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="items2">
+                        <div class="submit" style="width:270px; height:270px">
+                            <h3>submit<br>your<br> resume</h3>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="contact_address">
+            <div class="address_column1">
+                <h3 class="title">
+                    KEEP IN TOUCH
+                </h3>
+            </div>
+            <div class="contact_infor">
+                <div class="address_column2">
+                    <div class="address_row1">
+                        <p class="country">Melbourne, <span class="address_span">Australia</span></p>
+                        <p class="address address_span">269 King Str, 05th Floor, Utral Hosue Building, Melbourne, VIC 3000, Australia.</p>
+                    </div>
+                    <div class="address_row2">
+                        <p class="email">Email: <span style="font-size: 14px" class="address_span">info@bauhaus.co</span></p>
+                        <p class="skype">Skype: <span style="font-size: 14px" class="address_span">bauhaus.arc</span></p>
+                    </div>
+                </div>
+                <div class="address_column3">
+                    <div class="address_row1">
+                        <p class="country address_span">Call directly:</p>
+                        <p class="phone_number">+99 (0) 344 956 4050</p>
+                    </div>
+                    <div class="address_row2">
+                        <p class="email">Follow us</p>
+                        <ul class="socials">
+                            <li><i class="fa-brands fa-twitter"></i></li>
+                            <li><i class="fa-brands fa-facebook-f"></i></li>
+                            <li><i class="fa-brands fa-google"></i></li>
+                            <li><i class="fa-brands fa-linkedin"></i></li>
+                            <li><i class="fa-brands fa-telegram"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact_form">
+            <div class="form_column1">
+                <h3 class="title">
+                    YOU NEED HELP?
+                </h3>
+            </div>
+            <form onsubmit="sendEmail(); checkForm(); reset(); return false;" class="form_container">
+                <div class="mini_container1">
+                    <input id="name_js" type="text" placeholder="Name*">
+                    <input id="email_js" type="email" name="" id="" placeholder="Email*">
+                    <input id="subject_js" type="text" placeholder="Subject (Optinal)">
+                    <span role="alert" id="formError" aria-hidden="true">This field is required.</span>
+                </div>
+                <div class="mini_container2">
+                    <textarea id="message_js" placeholder="Message*" spellcheck="false" name="" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div class="form_submit">
+                    <button type="submit" id="send_js">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="brand--logo_name">
+            <div class="logo">
+                <img src="./images/brand-white.png" alt="image brand">
+            </div>
+            <div class="brand--name">
+                <p>bauhaus</p>
+                <p>architecture</p>
+            </div>
+        </div>
+        <ul class="socials">
+            <li><i class="fa-brands fa-twitter"></i></li>
+            <li><i class="fa-brands fa-facebook-f"></i></li>
+            <li><i class="fa-brands fa-google"></i></li>
+            <li><i class="fa-brands fa-linkedin"></i></li>
+            <li><i class="fa-brands fa-telegram"></i></li>
+        </ul>
+        <ul class="langs">
+            <li>EN</li>
+            <li>FR</li>
+            <li>VI</li>
+        </ul>
+        <p class="column4">
+            © Bauhaus 2019. All Rights Resevered
+        </p>
+        <!-- <div id="dot_on_mouse">
+
+        </div> -->
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
